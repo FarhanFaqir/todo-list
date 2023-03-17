@@ -1,0 +1,64 @@
+body{
+    background: linear-gradient(
+        90deg,
+        rgb(248, 165, 165),
+        rgb(167, 167, 248),
+        rgb(155, 240, 155)
+
+    );
+}
+
+.container {
+    border: 1px solid #fff;
+    padding: 15px;
+    margin-top: 10%;
+    width: 50%;
+}
+
+.new-task {
+    background-color: #fff;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+.new-task input{
+    /* height: 70% ; */
+    width: 80%;
+    padding: 15px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+
+.new-task input:focus{
+    outline: none;
+    border-color: rgb(167, 167, 248),;
+}
+
+.new-task button {
+    float: right;
+    width: 18%;
+    height: 55px;
+}
+
+.tasks {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+.task{
+    background-color: #fff;
+    /* height: 45px; */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(190, 190, 190);
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+}
